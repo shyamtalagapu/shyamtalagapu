@@ -1,0 +1,133 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #0a191e;
+    margin: 0;
+    color: white;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: #b1aa12;
+}
+#styling{
+    margin: 0;
+    padding: 0;
+    background: url("download6.jpg")no-repeat center/cover;
+     width: 100%;
+     height: 120vh;
+    position: relative;
+    overflow: hidden; 
+}
+#styling .tag{
+    margin-top: 20vh;
+}
+
+#styling h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: rgb(247, 246, 245);
+    font-family: cursive;
+    margin-top: 0px;
+}
+#styling h5{
+    font-size: 0.3;
+    text-align: center;
+      padding-top: 0px;
+    
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: black;
+    position: fixed;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+  float: left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+     padding: 6.5px 5px;  /*top bottom /left right; */
+     color: #d8d8d6 ;
+     
+}
+nav li:hover{
+   background-color: #444;
+
+}
+.tag{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+
+footer .footer{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+footer .footer ul{
+    list-style-type: none;
+}
+footer .footer ul li:first-child{
+    font-size: 1.3rem;
+    padding-bottom: 0rem; 
+    border-bottom: #d8d8d6 solid 1px;
+}
+footer .footer-bottom{
+    background-color: rgb(47, 45, 45);
+    padding: 0rem;
+    text-align: center;
+    
+}
+/* .section{
+    /* background: url(OIP.jpg)  no-repeat center; */
+    /* text-align: center; */
+    /* background-size: 300px 500px; */
+    /* padding-top: 20px; */
+
+
+/* .style{
+    background: url(download8.jpg)  no-repeat center;
+} */
+/* h2{
+    padding-top:0px;
+    
+} */
+/* .row{
+    background: url(download8.jpg) no-repeat;
+
+} */
+
+h2 {
+    padding-top: 35px;
+    text-align: center;
+    color: hsl(216, 60%, 51%) ;
+    border-bottom: #1a4f4b solid 1px;
+}
+
+.column{
+    
+    float: left;
+    width: 300px;
+   margin: 0;
+    padding: 0px;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
